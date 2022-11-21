@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CloudStore - Login</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="login.css">
+        <link rel="stylesheet" href="./responsive/responsiveLogin.css">
+    </head>
+    <body>
+        <main>
+            <div class="logoContainer">
+                <h1>CloudStore</h1>
+                <div class="headerLine"></div>
+            </div>
+            <div class="loginContainer">
+                <div class="loginPage">
+                    <p id="loginTitle">Bem-vindo a CloudStore</p>
+                    <h1>Logue na sua conta</h1>
+                    <div class="labelDivisao">
+                        <label class="loginLabel" for="e-mail">E-mail</label>
+                    </div>
+                    <div class="form">
+                        <input type="text" name="e-mail">
+                    </div>
+                    <div class="labelDivisao">
+                        <label class="loginLabel" for="password">Senha</label>
+                    </div>
+                    <div class="form">
+                        <input type="password" name="password">
+                    </div>
+                    <div class="checkboxContainer">
+                        <label for="checkbox">Lembrar</label>
+                        <div class="checkbox">
+                            <input type="checkbox">
+                        </div>
+                    </div>
+                    <button id="loginButton">
+                        <span>
+                            Login
+                        </span>
+
+                    </button>
+                    <p id="forgotPassword">Esqueceu a senha?</p>
+                    <h2>---------------------------- or ----------------------------</h2>
+                    <button class="loginOthers"><iconify-icon icon="logos:google-icon" height="30px" width="30px"></iconify-icon>Login com o Google <span></span></button>
+                    <button class="loginOthers"><iconify-icon icon="logos:facebook" height="30px" width="30px"></iconify-icon>Login com o Facebook <span></span></button>
+                    <p>Não tem uma conta? <i>Clique aqui</i></p>
+                </div>
+            </div>      
+        </main>
+        
+    </body>
+</html>

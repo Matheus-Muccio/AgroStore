@@ -1,0 +1,83 @@
+#background-home-initial{
+    background: #00132A;
+}
+
+header h1{
+    text-align: center;
+    color: #0098C6;
+    font-size: 61px;
+    padding: 20px;
+       
+}
+
+#header-line{
+    border: 1px solid #0098C6;
+    margin-bottom: 20px;
+}
+
+
+.menu-icon{
+    position: absolute;
+    left: 86.18%;
+    right: 8.82%;
+    top: 4.2%;
+    bottom: 91.11%;
+    color: #0098C6;
+
+}
+
+#home-background{
+    height: 818px;
+    margin-left: 37px;
+    margin-top: 20px;
+    margin-right: 37px;
+    margin-bottom: 37px;
+    background: #FFFFFF;
+    border: 1px solid #0098C6;
+    border-radius: 12px;
+}
+
+
+#home-image{
+    position: absolute;
+    width: 615px;
+    height: 503px;
+    left: 105px;
+    top: 316px;
+    background: url(home-image.gif);
+    
+}
+
+.icone{
+    color: red;
+    font-size: 30px;
+}
+
+#home-title{
+    position: absolute;
+    width: 544px;
+    height: 437px;
+    left: 769px;
+    top: 343px;
+    font-weight: bold;
+    font-size: 46px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #0D6580;
+    text-shadow: 16px 16px 16px rgba(0, 0, 0, 0.25);
+}
+
+#home-text{
+    text-shadow: 16px 16px 16px rgba(0, 0, 0, 0.25);
+    padding: 125px;
+    font-size: 32px;
+    width: 544px;
+    height: 437px;
+    margin-left: 769px;
+    margin-top: 343px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+}

@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2? family= Poppins:wght@400;500;700 & display=swap');
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+ body{
+    overflow-y: hidden;
+    overflow-x: hidden;
+ }
+
+.logoContainer{
+    width: 50%;
+    height: 100%;
+    max-height: 100%;
+    background: #00132A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logoContainer h1{
+    font-size: 3.25rem;
+    font-weight: bold;
+    color: #0098C6;
+}
+
+.headerLine{
+    width: 100%;
+    border: 1px solid #0098C6;
+    margin: 20px;
+}
+
+.registerContainer{
+    width: 50%;
+    height: 100%;
+    max-height: 100%;
+    background: #CCCCCC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.registerPage{
+    width: 90%;
+    height: 90%;
+    background: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid #0098C6;
+}
+
+#registerTitle{
+    color: #000000;
+    font-size: 1.125rem;
+    font-weight: 275;
+    
+}
+
+.registerPage h1{
+    padding: 10px;
+    font-size: 2rem;
+    color: #000000;
+    font-weight: 600;
+}
+
+.registerLabel{
+    font-size: 1rem;
+    color: #000000;
+    font-weight: 600;
+    margin: 10px;
+}
+
+.form input{
+    width: 500px;
+    height: 36px;
+    border: 1px solid #000000;
+}
+
+.form input:hover{
+    border: 1px solid #0098C6;
+}
+
+.divisionLabel {
+    display: flex;
+    justify-content: flex-start;
+    max-width: 530px;
+    width: 530px;
+}
+
+.registerContainer label{
+    font-size: 1rem;
+    color: #000000;
+    font-weight: 275;
+
+}
+
+#registerButton{
+    padding: 10px;
+    margin: 3rem;
+    width: 200px;
+    height: 50px;
+    background: #05bcf3;
+    cursor: pointer;
+}
+
+#registerButton:focus{
+    background: #0098C6;
+    border: none;
+}
+
+#registerButton span {
+    color: #000000;
+    font-size: 1.5rem;
+    font-weight: bold;
+}

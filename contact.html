@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CloudStore - Contato</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="contact.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <div class="headerBox">
+                <span></span>
+                <h1>CloudStore</h1>
+                <nav class="wrap-menu">
+                    <div class="align-icon">
+                        <a href="#" class="btnMenu btnMenu-open"><img class="image-btn" src="./assets/menu.svg"></a>
+                    </div>
+                    
+                    <ul class="menu">
+                        <li class="btnMenu btnMenuclose"><img class="image-close-menu"src="./assets/menu.svg"></li>
+                        <li class="item-menu">
+                            <a href="./index.html">Home</a>
+                        </li>
+                        <li class="item-menu">
+                            <a href="./products.html">Produtos</a>
+                        </li>
+                        <li class="item-menu">
+                            <a href="./contact.html">Contato</a>
+                        </li>
+                        <li class="item-menu">
+                            <a href="./login.html">Login</a>
+                        </li>
+                        <li class="item-menu">
+                            <a href="./register.html">Registrar</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div class="headerLine"></div>
+        <script src="./js/index.js"></script>
+        <main>
+            <section class="contentPage">
+                <h1>Entre em contato conosco</h1>
+                <p>Preencha o formulário e nossa equipe entrará em contato em até 24 horas.</p>
+                <button>
+                    <div class="imgButton">
+                        <i><iconify-icon class="contactIcon" icon="ic:baseline-local-phone" height="30px" width="30px"></iconify-icon></i>
+                        + 55 14 3498-8996
+                        <span></span>
+                    </div>
+                </button>
+                <button>
+                    <div class="imgButton">
+                        <i><iconify-icon class="contactIcon" icon="ic:baseline-email" height="30px" width="30px"></iconify-icon></i>
+                        contact@cloudstore.com.br
+                        <span></span>
+                    </div>
+                </button>
+                <button>
+                    <div class="imgButton">
+                        <i><iconify-icon class="contactIcon" icon="akar-icons:check-in" height="30px" width="30px"></iconify-icon></i>
+                        Av.  Paulista 3077
+                        <span></span>
+                    </div>
+                </button>
+                <div class="socialIcons">
+                    <span></span>
+                    <i><iconify-icon class="contactIcon" icon="logos:facebook" height="40px" width="40px"></iconify-icon></i>
+                    <i><iconify-icon class="contactIcon" icon="logos:twitter" height="40px" width="40px"></iconify-icon></i>
+                    <i><iconify-icon class="contactIcon" icon="logos:whatsapp-icon" height="40px" width="40px"></iconify-icon></i>
+                    <span></span>
+                </div>
+            </section>
+            <section class="formPage">
+                <div class="labelAlign">
+                    <label for="yourName">Seu Nome</label>
+                </div>
+                <div class="inputStyle">
+                    <input type="text" name="yourName">
+                    <!-- <i><iconify-icon class="contactIcon" icon="ep:user-filled" height="30px" width="30px"></iconify-icon></i> -->
+                </div>
+                <div class="labelAlign">
+                    <label for="yourEmail">E-mail</label>
+                </div>
+                <div class="inputStyle">
+                    <input type="email" name="yourEmail">
+                    <!-- <i><iconify-icon class="contactIcon" icon="akar-icons:envelope" height="30px" width="30px"></iconify-icon></i> -->
+                </div>
+                <div class="labelAlign">
+                    <label for="message">Mensagem</label>
+                </div>
+                <div class="messageBox">
+                    <textarea name="message" id="message-box" cols="30" rows="10"></textarea>
+                </div>
+                <div class="sendMessage">
+                    <button><span>Enviar</span></button>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>
